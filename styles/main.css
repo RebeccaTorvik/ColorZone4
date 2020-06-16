@@ -137,6 +137,7 @@ body {
 
 .aboutSection img {
 	width: 50%;
+	height: auto;
 	padding: 5%;
 	padding-top: 5%;
 }
