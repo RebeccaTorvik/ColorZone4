@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="../styles/login.css" type="text/css" rel="stylesheet">
+  <link href="../styles/nav.css" type="text/css" rel="stylesheet">
+
+</head>
+<body>
+  <!-- Navigation bar -->
+  <nav class="navbar navbar-expand-lg customNav">
+    <a class="navbar-brand" href="../index.html"><img src="../images/logo.jpg"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+    
+        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="../pages/services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Book Online<span class="sr-only">(current)</span></a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        <li class="nav-item activate"><a class="nav-link" href="#">Login</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <!-- login -->
+
+
+<section class="noticeLoginSection">
+ <div class="bookLoginBox">
+  <div class="loginBox">
+      <div class="loginSignup">
+        <ul class="nav nav-tabs loginTab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link loginLink active" data-toggle="tab" href="#home">Login</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link loginLink" data-toggle="tab" href="#menu1">Sign Up</a>
+          </li>
+        </ul>
+      </div>
+    <div class="tab-content">
+        <div id="home" class="container tab-pane active"><br>
+        <form class="loginContent">
+          <div class="emailBox">
+            <h5>Email</h5>
+            <input type="text" name="email">
+          </div>
+          <div class="passwordBox">
+            <h5>Password</h5>
+            <input type="password" name="psw">
+          </div>
+          <div>
+            <button class="loginBtn">Login</button>
+          </div>
+          <div class="forgotBox">
+            <p>Forgot Password?</p>
+          </div>
+      
+        </form>
+        </div>
+      <div id="menu1" class="container tab-pane fade"><br>
+      <form class="loginContent">
+        <div class="emailBox">
+          <h5>Email</h5>
+          <input type="text" name="email">
+        </div>
+        <div class="passwordBox signupPass">
+          <h5>Password</h5>
+          <input type="password" name="psw">
+        </div>
+        <div class="confirmPasswordBox">
+          <h5>Confirm Password</h5>
+          <input type="password" name="psw">
+        </div>
+        <div>
+          <button class="loginBtn">Sign Up</button>
+        </div>
+
+      </form>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+
+
+
+
+<!-- Script -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+      <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+      <script src="../script/scriptNav.js"></script>
+  
+
+  </body>
+</html>

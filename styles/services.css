@@ -1,0 +1,273 @@
+/*Global*/
+
+/*Global*/
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Playfair Display', serif;
+	background-color: #0A0B10;	
+	height: 100%;
+}
+
+
+h2 {
+	font-size: 90px;
+	color: #f5f5f5;
+  }
+  
+  h3 {
+	font-size: 40px;
+	color: #f5f5f5;
+  }
+  
+  h4 {
+	font-size: 25px;
+	color: #f5f5f5;
+  }
+
+  h5 {
+	font-size: 20px;
+	color: #f5f5f5;
+  }
+
+  p {
+	font-size: 18px;
+	color: #949494;
+	line-height: 140%;
+  }
+  
+
+.purpleLine {
+	border-color: #9C24CC;
+	width: 50px;
+	margin-bottom: 35px;
+	margin-top: 25px;
+	border-width: 3px;
+	border-style: solid;
+}
+
+
+/*Featured Image--------------------------------------------*/
+
+
+body {
+    font-family: 'Playfair Display', serif;
+	background-color: #0A0B10;
+}
+
+.part {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	margin-top: -38%;
+	
+}
+
+.phoneNum {
+	color: #f5f5f5;
+	font-size: 18px;
+}
+
+.bookBtn {
+	background-color: #9C24CC;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 40px;
+	padding-right: 40px;
+	border: none;
+	color: #f5f5f5;
+	margin-top: 5%;
+}
+
+.bookBtn:hover:not(.active3) {
+	background-color: #330c42;
+	color: #f5f5f5;
+	border: none;
+	cursor: pointer;
+  }
+
+.pics {
+	width: 50%;
+	margin-left: 11%;
+	margin-right: 5%;
+}
+
+.serviceBox {
+	width: 50%;
+	margin-left: 5%;
+
+}
+
+[class*="flex-row"]{
+	display: flex;
+	justify-content: center;
+}
+
+.box{
+	width: 200px;
+	height: 200px;
+	border: 2px solid #0A0B10;
+	transform: rotate(45deg);
+	margin: -23px 50px;
+	overflow:  hidden;
+	position: relative;
+}
+
+.photo1{
+	position:  absolute;
+	transform: rotate(-45deg);
+	width: 165%;
+	height: 180%;
+	top: -50px;
+	left: -50px;
+	background-position: -158px 0px;
+  background-image: url(../images/style2.png);
+  background-size: 145%;
+  background-repeat: no-repeat;
+}
+
+.photo2{
+	position:  absolute;
+	transform: rotate(-45deg);
+	width: 165%;
+	height: 180%;
+	top: -50px;
+	left: -50px;
+	background-position:  0 -80px;
+  background-image: url(../images/cutting2.png);
+  background-size: 150%;
+}
+
+.photo3{
+	position:  absolute;
+	transform: rotate(-45deg);
+	width: 165%;
+	height: 180%;
+	top: -50px;
+	left: -50px;
+	background-position:  0 30px;
+  background-image: url(../images/dye2.png);
+  background-size: 150%;
+}
+
+.photo4{
+	position:  absolute;
+	transform: rotate(-45deg);
+	width: 165%;
+	height: 180%;
+	top: -50px;
+	left: -50px;
+	background-position:  -120px -50px;
+  background-image: url(../images/extend2.png);
+  background-size: 150%;
+}
+
+
+.noteListContent {
+	color: #949494;
+	font-size: 18px;
+}
+
+.serviceBox h4 {
+	margin-top: 10%;
+}
+
+
+/*Scroll--------------------------------------------*/
+
+
+body {
+	position: relative;
+	overflow-y: scroll;
+	height: 100%;
+}
+
+
+
+
+.menuPrice {
+	margin-left: 150px;
+}
+
+.menuPrice p {
+	color: #f5f5f5;
+}
+
+
+.secondaryNav {
+	display: flex;
+	justify-content: space-between;
+	align-content: flex-start;
+}
+
+
+.sticky {
+	position: sticky;
+	position: -webkit-sticky;
+	width: 200px;
+	height: 200px;
+	top: 120px;
+	display: flex;
+	justify-content: baseline;
+	align-items: center;
+	color: #fff;
+	margin-left: 5%;
+	margin-top: 7%;
+  }
+
+.list-group-item {
+	background-color: #0A0B10;
+	color: #f5f5f5;
+}
+
+.extra,
+.wrapper {
+  width: 100%;
+  margin: auto;
+  margin-top: 100vh;
+}
+
+.wrapper {
+  height: 100%;
+}
+
+.extra {
+  height: 100%;
+
+}
+
+.scrollspy-example {
+	width: 60%;
+	margin-right: 10%;
+}
+
+.table td, .table th {
+	border-top: none;
+}
+
+
+.table thead th {
+	border-bottom: 1px solid #dee2e6;
+}
+
+.table td, .table th {
+	padding-top: 1.5rem;
+	padding-bottom: .0rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+.table h3 {
+	padding-bottom: 1rem;
+	padding-top: 5rem;
+}
+
+.list-group-item.active {
+    background-color: #9C24CC;
+	border-color: #9C24CC;
+}

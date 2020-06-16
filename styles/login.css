@@ -1,0 +1,163 @@
+/*Global*/
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Playfair Display', serif;
+	background-color: #0A0B10;	
+}
+
+
+h2 {
+	font-size: 90px;
+	color: #f5f5f5;
+  }
+  
+  h3 {
+	font-size: 40px;
+	color: #f5f5f5;
+  }
+  
+  h4 {
+	font-size: 25px;
+	color: #f5f5f5;
+  }
+
+  h5 {
+	font-size: 20px;
+	color: #f5f5f5;
+  }
+
+  p {
+	font-size: 18px;
+	color: #949494;
+	line-height: 140%;
+  }
+  
+
+.purpleLine {
+	border-color: #9C24CC;
+	width: 50px;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	border-width: 3px;
+	border-style: solid;
+}
+
+
+
+/*Login Section--------------------------------------------*/
+
+
+body {
+	background-image: url("../images/contactPic2.png");
+	background-size: 100%;
+
+	background-repeat: no-repeat;
+
+}
+
+
+.loginBox {
+	background-color: #262626;
+	border-radius: 10px;
+	padding: 1%;
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-right: 10%;
+	width: 30%;
+	float: right;
+}
+
+
+.loginSignup {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 5%;
+}
+
+.whiteLine {
+	width: 100%;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #f5f5f5;
+}
+
+
+.loginContent {
+	margin: 10%;
+	margin-top: 5%;
+}
+
+.emailBox {
+	margin-bottom: 10%;
+}
+
+.emailBox input, .passwordBox input, .confirmPasswordBox input {
+	width: 100%;
+	background-color: #414141 !important;
+	border: none;
+	height: 40px;
+}
+
+
+input {
+	text-indent: 5%;
+	color: #f5f5f5;
+}
+
+
+
+.forgotBox {
+	text-align: center;
+
+	margin-top: 10%;
+}
+
+.forgotBox p {
+	font-size: 16px;
+}
+
+.loginBtn {
+	background-color: #9C24CC;
+	color: white;
+	padding: 13px 10px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	border-radius: 25px;
+	margin-top: 15%;
+}
+
+
+
+.loginTab .loginLink {
+	color: #f5f5f5;
+	font-size: 25px;
+}
+
+.loginTab .loginLink.active {
+	background-color: #262626;
+	color: #f5f5f5;
+	border: none;
+	border-bottom: 1px solid rgb(222, 226, 230);
+}
+
+.loginTab {
+	border-bottom: none;
+}
+
+.loginTab a:hover { 
+	border: none;
+	color: #949494;
+  }
+
+.confirmPasswordBox {
+	margin-top: 10%;
+
+}
+
