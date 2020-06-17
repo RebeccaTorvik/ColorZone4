@@ -22,6 +22,6 @@
 	})();
 
 $(window).scroll(function() {
-	var theta = $(window).scrollTop() / 2700 % Math.PI;
+	var theta = $(window).scrollTop() / 1500 % Math.PI;
 	$('#leftgear').css({ transform: 'rotate(' + theta + 'rad)' });
 	});
